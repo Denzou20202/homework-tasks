@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding: 50px 0;
+}
+
+button {
+  font-size: 60px;
+  font-weight: bolder;
+  border: none;
+  background: none;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+section p {
+  width: 80%;
+}
+
+#top-section {
+  background-color: indianred;
+}
+
+#middle-section {
+  background-color: aqua;
+}
+
+#bottom-section {
+  background-color: mediumspringgreen;
+}
