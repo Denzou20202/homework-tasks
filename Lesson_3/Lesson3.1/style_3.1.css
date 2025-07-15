@@ -1,0 +1,61 @@
+body {
+  margin: 2%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50vh;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+main div {
+  width: 32%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0;
+  background-color: darkblue;
+}
+
+main div p {
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 80vh;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
