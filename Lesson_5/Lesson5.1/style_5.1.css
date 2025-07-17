@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  background:linear-gradient(90deg,#aef008 50%,#0000 0) right/200% 100%;
+  animation: loader 5s infinite;
+}
+.loader::before {
+  content :"Loading...";
+  color: #0000;
+  padding: 0 75px 0 5px;
+  background: inherit;
+  background-image: linear-gradient(90deg,#0b58f2 50%,#fff 0);
+  background-clip:text;
+}
+
+
+@keyframes loader{
+  100%{background-position: left}
+}
+
