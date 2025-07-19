@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1E1E1E;
+}
+
+.wrapper {
+  width: 1340px;
+  margin: 0 auto;
+}
+
+nav {
+  padding-top: 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #E9E3DC;
+  font-family: Bowlby One, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 97%;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 59px;
+}
+
+.active__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1E1E1E;
+  background: #B3A0CD;
+  width: 203px;
+  height: 60px;
+  top: 36px;
+  left: 1186px;
+  opacity: 1;
+}
+/*--------------------------------------*/
+.order__title {
+  font-family: Bowlby One, sans-serif;
+  font-weight: 400;
+  font-size: 107.09px;
+  line-height: 89%;
+  text-align: center;
+  color: #E9E3DC;
+  margin: 74px auto 33px auto;
+}
+
+.main__post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_us__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  background: #D1EF53;
+  width: 1340px;
+  height: 369px;
+  border: 4px solid #1E1E1E;
+  border-radius: 30px;
+}
+
+.about_us__title {
+  width: 533px;
+  font-family: Bowlby One,sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 89%;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+
+.about_us__paragraph p {
+  width: 521px;
+  font-family: Inter,sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 34px;
+}
+
+.about_us__button {
+  width: 176px;
+  height: 60px;
+  top: 1125px;
+  left: 720px;
+  opacity: 1;
+  border-width: 4px;
+  background: #E9E3DC;
+  box-shadow: 8px 8px 0 0 #000000;
+}
+
+.about_us__button a {
+  font-family: Bowlby One, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 97%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px auto;
+}
+
+.visitors__photo {
+  width: 1340px;
+  height: 503px;
+  border: 4px solid #D9D9D9;
+  margin-bottom: 64px;
+}
+/*-------------------------------------*/
+.get__order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.get__order__info {
+  width: 895px;
+  font-family: Bowlby One, sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 102%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E9E3DC;
+  margin-bottom: 33px;
+}
+
+.get__start {
+  width: 196px;
+  height: 60px;
+  top: 2908px;
+  left: 623px;
+  opacity: 1;
+  background: #D1EF53;
+  margin-bottom: 36px;
+}
+
+.get__start a {
+  font-family: Bowlby One, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 97%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
