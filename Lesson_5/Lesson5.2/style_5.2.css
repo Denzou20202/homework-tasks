@@ -123,6 +123,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: #1E1E1E;
+  text-decoration: none;
 }
 
 .menu__items {
@@ -176,4 +177,5 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: #1E1E1E;
+  text-decoration: none;
 }
