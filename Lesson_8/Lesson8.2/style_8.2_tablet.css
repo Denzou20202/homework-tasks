@@ -1,0 +1,17 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .gallery {
+    width: 768px;
+    margin: 48px auto;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px 24px;
+  }
+
+  .card {
+    width: 348px;
+    height: 100%;
+    text-align: start;
+  }
+}
